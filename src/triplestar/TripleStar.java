@@ -15,8 +15,9 @@ public class TripleStar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //untuk menentukan batasan baris yang akan dibuat//
         for (int vertikal=1; vertikal<=4; vertikal++) {
-
+// untuk jumbalhnya semakin kebawah agar semakin banyak//
  for (int horisontal=1; horisontal<vertikal; horisontal++)
 
 {  System.out.print("*");
